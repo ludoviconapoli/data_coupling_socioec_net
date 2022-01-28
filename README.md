@@ -12,12 +12,12 @@ The data folder contains multiple files:
 - CONTOURS-IRIS_D075.shp: this is a standard shapefile with the shapes of the IRIS unit located in the Paris area. The IRIS shapefiles of all the French Départments can be found here: https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html#contoursiris
 - CDR_sample.dat: sample of (anonymized, randomized) CDRs data. The entries are separated by a | symbol and are organized in this order:
 
-date, in YYYYMMDD format
-time, in HHMMSS format
-caller ID
-callee ID
-cell tower ID
-event type (call or SMS)
+1.  date, in YYYYMMDD format
+2.  time, in HHMMSS format
+3.  caller ID
+4.  callee ID
+5.  cell tower ID
+6.  event type (call or SMS)
 
 - towers_geolocation.txt: file containing the (shifted and randomized) geospatial coordinates of cell towers in this order (tab-separated):
 
